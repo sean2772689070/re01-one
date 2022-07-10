@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			@import url(css/main.css);
+			@import url(css/main_1.css);
+			@import url(css/main_2.css);
+			@import url(css/main_3.css);
+		</style>
+		<!-- 引用动画库 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="top">
+			<ul id="toubu">
+				<li class="xaiozi" id="xiaozi_1">
+					<img src="image/首页.png" alt="首页" class="xiaozi_img">
+					<a href="#main" class="xiaozi_img">首页</a>
+				</li>
+				<li class="xaiozi" id="xiaozi_2">
+					<img src="image/资料.png" alt="资料" class="xiaozi_img">
+					<a href="#main_1" class="xiaozi_img">资料</a>
+				</li>
+				<li class="xaiozi" id="xiaozi_3">
+					<img src="image/分类.png" alt="分类" class="xiaozi_img">
+					<a href="#bac_2" class="xiaozi_img">轮播图</a>
+				</li>
+				<li class="xaiozi" id="xiaozi_4">
+					<img src="image/聊天.png" alt="联系方式" class="xiaozi_img">
+					<a href="#main_3" class="xiaozi_img">联系方式</a>
+				</li>
+			</ul>
+		</div>
+		<div id="main">
+			<span id="touxiang"><img src="image/tuxiang.jpg" alt="头像"></span>
+			<span id="wenzi">
+				<p>就让我的身体里住进一辆火车吧，<br>
+					我们在雨天的森林里出发，空气新鲜，<br>
+					人也新鲜。<br>
+					抓一把鸟鸣下山，<br>
+					把花朵和风都扔进窗户，<br>
+					欢喜会绕成一个圆</p>
+			</span>
+		</div>
+		<div id="main_1">
+			<div id="cebianlan">
+				<ul id="xuanxiang">
+					<li><img src="image/tuxiang.jpg" alt="头像" id="xiao_tou"></li>
+					<li id="xuanxaing_1" class="xuanxaing"><img src="image/布丁.png" alt="..."><a href="#main_1">首页</a>
+					</li>
+					<li id="xuanxaing_2" class="xuanxaing"><img src="image/糖果.png" alt="..."><a href="#main_1">关于</a>
+					</li>
+					<li id="xuanxaing_3" class="xuanxaing"><img src="image/蛋糕.png" alt="..."><a href="#main_1">电话</a>
+					</li>
+					<li id="xuanxaing_4" class="xuanxaing"><img src="image/蛋黄酥.png" alt="..."><a href="#main_1">微信</a>
+					</li>
+					<li id="xuanxaing_5" class="xuanxaing"><img src="image/饼干.png" alt="..."><a href="#main_1">瞎bb</a>
+					</li>
+				</ul>
+			</div>
+			<div id="neirong">
+				<div class="neirong">
+					<ul id="neirong_1">
+						<li class="content"></li>
+						<li class="content active">
+							<img src="../首页/image/星空.jpg" alt="...">
+							<p>无论对谁太过热情，就增加了不被珍惜的概率<br>弱能避开猛烈的狂喜，自然不会有悲痛袭来。——《人间失格》<br>爱意随风起，自然知湫意。</p>
+						</li>
+						<li class="content">
+							<img src="../首页/image/轮播2.jpg" alt="...">
+							<p>她那时候还太年轻，不知道所有命运赠送的礼物，早已在暗中标好了价格。<br>——茨威格《断头王后》</p>
+						</li>
+						<li class="content">
+							<img src="../首页/image/轮播3.jpg" alt="...">
+							<p style="font-size: 24px;">
+								<span id="n">电话</span>
+								<span id='e'>132</span>
+								<span id='o'>7759</span>
+								<span id='n2'>3283</span>
+							</p>
+						</li>
+						<li class="content">
+							<img src="../首页/image/轮播4.jpg" alt="...">
+							<p style="font-size: 24px;">微信:h2772689070</p>
+						</li>
+						<li class="content">
+							<img src="../首页/image/轮播5.jpg" alt="...">
+							<p>无论对谁太过热，就增加了不被珍惜的概率<br>弱能避开猛烈的狂喜，自然不会有悲痛袭来。——《人间失格》<br>爱意随风起，自然知湫意。</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="bac_2">
+			<div id='main_2'>
+				<!--轮播图片区   在取名时，因为各有所长(分别取名slide1-5)，有共有特性(banner-slide)，所以，取多个类名-->
+				<div id='banner'>
+					<!--图1-->
+					<a href="./index2.html">
+						<div class='banner-slide  slide1' class="animated bounceIn"></div>
+					</a>
+					<!--图2-->
+					<a href="./index2.html">
+						<div class='banner-slide  slide2'></div>
+					</a>
+					<!--图3-->
+					<a href="./index2.html">
+						<div class='banner-slide  slide3'></div>
+					</a>
+					<!--图4-->
+					<a href="./index2.html">
+						<div class='banner-slide  slide4'></div>
+					</a>
+					<!--图5-->
+					<a href="./index2.html">
+						<div class='banner-slide  slide5'></div>
+					</a>
+				</div>
+				<!--移动数字绑定图片
+				必然的是，和图片数量是对等的-->
+				<div class="dots">
+					<ul id='dots'>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<!--上、下一张按钮-->
+				<div id="left-right">
+					<div class="move" id="prev">&lsaquo;</div>
+					<div class="move" id="next">&rsaquo;</div>
+				</div>
+			</div>
+		</div>
+		<iframe src="" frameborder="0"></iframe>
+		<script src="js/main_1.js"></script>
+		<script src="js/main_2.js"></script>
+	</body>
+</html>
